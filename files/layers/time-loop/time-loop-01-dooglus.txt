@@ -1,0 +1,2 @@
+Example source:
+https://wiki.synfig.org/Time_Loop_Layer#Contrived_Example

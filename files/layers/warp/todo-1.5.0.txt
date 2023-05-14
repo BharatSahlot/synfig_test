@@ -1,0 +1,8 @@
+Force rendering with version 1.5.0 as soon as it will be released.
+
+See:
+
+- https://github.com/synfig/synfig/issues/418
+- https://github.com/synfig/synfig/issues/318
+- https://github.com/synfig/synfig/issues/1186
+- https://gitlab.com/synfig/synfig-tests/-/issues/26
