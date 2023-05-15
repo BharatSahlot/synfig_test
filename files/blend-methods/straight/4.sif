@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="1.2" width="480" height="270" xres="2834.645669" yres="2834.645669" gamma-r="1.000000" gamma-g="1.000000" gamma-b="1.000000" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+  <name>4.sif</name>
+  <meta name="background_first_color" content="0.880000 0.880000 0.880000"/>
+  <meta name="background_rendering" content="0"/>
+  <meta name="background_second_color" content="0.650000 0.650000 0.650000"/>
+  <meta name="background_size" content="15.000000 15.000000"/>
+  <meta name="grid_color" content="0.623529 0.623529 0.623529"/>
+  <meta name="grid_show" content="0"/>
+  <meta name="grid_size" content="0.250000 0.250000"/>
+  <meta name="grid_snap" content="0"/>
+  <meta name="guide_color" content="0.435294 0.435294 1.000000"/>
+  <meta name="guide_show" content="1"/>
+  <meta name="guide_snap" content="0"/>
+  <meta name="jack_offset" content="0.000000"/>
+  <meta name="onion_skin" content="0"/>
+  <meta name="onion_skin_future" content="0"/>
+  <meta name="onion_skin_keyframes" content="1"/>
+  <meta name="onion_skin_past" content="1"/>
+  <meta name="status_ruler" content="1"/>
+  <keyframe time="0f" active="true"/>
+  <layer type="solid_color" active="true" exclude_from_rendering="false" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.174832</r>
+        <g>0.005939</g>
+        <b>0.242421</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+  </layer>
+  <layer type="circle" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="0.5000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="1" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.670652</r>
+        <g>1.000000</g>
+        <b>0.635785</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+    <param name="radius">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="feather">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.0733384266</x>
+        <y>-0.1493158937</y>
+      </vector>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+  </layer>
+  <layer type="rectangle" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="0.8900000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="1" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.935727</r>
+        <g>0.389557</g>
+        <b>0.389557</b>
+        <a>0.711135</a>
+      </color>
+    </param>
+    <param name="point1">
+      <vector>
+        <x>-3.4960284233</x>
+        <y>0.0470590554</y>
+      </vector>
+    </param>
+    <param name="point2">
+      <vector>
+        <x>-1.7141374350</x>
+        <y>1.9755661488</y>
+      </vector>
+    </param>
+    <param name="expand">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+    <param name="feather_x">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="feather_y">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="bevel">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="bevCircle">
+      <bool value="true"/>
+    </param>
+  </layer>
+  <layer type="rectangle" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="0.7000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="1" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.175928</r>
+        <g>0.738570</g>
+        <b>0.769537</b>
+        <a>0.918317</a>
+      </color>
+    </param>
+    <param name="point1">
+      <vector>
+        <x>-2.8631396294</x>
+        <y>-1.0189344883</y>
+      </vector>
+    </param>
+    <param name="point2">
+      <vector>
+        <x>-0.3099369407</x>
+        <y>1.1110811234</y>
+      </vector>
+    </param>
+    <param name="expand">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+    <param name="feather_x">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="feather_y">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="bevel">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="bevCircle">
+      <bool value="true"/>
+    </param>
+  </layer>
+  <layer type="rectangle" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="1" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.769537</r>
+        <g>0.175928</g>
+        <b>0.320530</b>
+        <a>0.238235</a>
+      </color>
+    </param>
+    <param name="point1">
+      <vector>
+        <x>-1.9615910053</x>
+        <y>0.5206142068</y>
+      </vector>
+    </param>
+    <param name="point2">
+      <vector>
+        <x>3.3032336235</x>
+        <y>1.7852509022</y>
+      </vector>
+    </param>
+    <param name="expand">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+    <param name="feather_x">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="feather_y">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="bevel">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="bevCircle">
+      <bool value="true"/>
+    </param>
+  </layer>
+  <layer type="rectangle" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="0.9900000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="1" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.769537</r>
+        <g>0.717713</g>
+        <b>0.175928</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+    <param name="point1">
+      <vector>
+        <x>3.7608971596</x>
+        <y>-2.1151738167</y>
+      </vector>
+    </param>
+    <param name="point2">
+      <vector>
+        <x>2.3912355900</x>
+        <y>2.0355148315</y>
+      </vector>
+    </param>
+    <param name="expand">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+    <param name="feather_x">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="feather_y">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="bevel">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="bevCircle">
+      <bool value="true"/>
+    </param>
+  </layer>
+  <layer type="rectangle" active="true" exclude_from_rendering="false" version="0.2">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="1" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.175928</r>
+        <g>0.738570</g>
+        <b>0.769537</b>
+        <a>0.907919</a>
+      </color>
+    </param>
+    <param name="point1">
+      <vector>
+        <x>3.7608971596</x>
+        <y>-2.1151738167</y>
+      </vector>
+    </param>
+    <param name="point2">
+      <vector>
+        <x>-3.8088109493</x>
+        <y>-0.9218733311</y>
+      </vector>
+    </param>
+    <param name="expand">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+    <param name="feather_x">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="feather_y">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="bevel">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="bevCircle">
+      <bool value="true"/>
+    </param>
+  </layer>
+</canvas>
