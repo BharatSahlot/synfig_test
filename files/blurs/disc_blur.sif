@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canvas version="1.2" width="480" height="270" xres="2834.645669" yres="2834.645669" gamma-r="1.000000" gamma-g="1.000000" gamma-b="1.000000" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+  <name>disc_blur.sif</name>
+  <meta name="background_first_color" content="0.880000 0.880000 0.880000"/>
+  <meta name="background_rendering" content="0"/>
+  <meta name="background_second_color" content="0.650000 0.650000 0.650000"/>
+  <meta name="background_size" content="15.000000 15.000000"/>
+  <meta name="grid_color" content="0.623529 0.623529 0.623529"/>
+  <meta name="grid_show" content="0"/>
+  <meta name="grid_size" content="0.250000 0.250000"/>
+  <meta name="grid_snap" content="0"/>
+  <meta name="guide_color" content="0.435294 0.435294 1.000000"/>
+  <meta name="guide_show" content="1"/>
+  <meta name="guide_snap" content="0"/>
+  <meta name="jack_offset" content="0.000000"/>
+  <meta name="onion_skin" content="0"/>
+  <meta name="onion_skin_future" content="0"/>
+  <meta name="onion_skin_keyframes" content="1"/>
+  <meta name="onion_skin_past" content="1"/>
+  <meta name="status_ruler" content="1"/>
+  <keyframe time="0f" active="true"/>
+  <layer type="solid_color" active="true" exclude_from_rendering="false" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.189189</r>
+        <g>0.189189</g>
+        <b>0.189189</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+  </layer>
+  <layer type="star" active="true" exclude_from_rendering="false" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>1.000000</r>
+        <g>1.000000</g>
+        <b>1.000000</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>-2.0711174011</x>
+        <y>0.6034199595</y>
+      </vector>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+    <param name="antialias">
+      <bool value="true"/>
+    </param>
+    <param name="feather">
+      <real value="0.2500000000"/>
+    </param>
+    <param name="blurtype">
+      <integer value="4" static="true"/>
+    </param>
+    <param name="winding_style">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="radius1">
+      <real value="1.6591660014"/>
+    </param>
+    <param name="radius2">
+      <real value="0.2460943287"/>
+    </param>
+    <param name="angle">
+      <angle value="19.325695"/>
+    </param>
+    <param name="points">
+      <integer value="5"/>
+    </param>
+    <param name="regular_polygon">
+      <bool value="false"/>
+    </param>
+  </layer>
+  <layer type="polygon" active="true" exclude_from_rendering="false" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="13" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>0.784477</r>
+        <g>0.207561</g>
+        <b>0.207561</b>
+        <a>0.689800</a>
+      </color>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>0.4214285612</x>
+        <y>0.0874906927</y>
+      </vector>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+    <param name="antialias">
+      <bool value="true"/>
+    </param>
+    <param name="feather">
+      <real value="0.2666666667"/>
+    </param>
+    <param name="blurtype">
+      <integer value="4" static="true"/>
+    </param>
+    <param name="winding_style">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="vector_list">
+      <dynamic_list type="vector" loop="true">
+        <entry>
+          <vector guid="4AEE2975784466433400C63197DCB30F">
+            <x>-2.2708952427</x>
+            <y>1.8302137852</y>
+          </vector>
+        </entry>
+        <entry>
+          <vector guid="866745EF8B3F4F76714679D691FEBAD0">
+            <x>-2.4102740288</x>
+            <y>-2.0752730370</y>
+          </vector>
+        </entry>
+        <entry>
+          <vector guid="C362F1A15D95474C362C95E33A9F2E31">
+            <x>0.3854064047</x>
+            <y>-1.4948623180</y>
+          </vector>
+        </entry>
+        <entry>
+          <vector guid="CAED3E56B91CCE3B5597736B55526261">
+            <x>1.6247891188</x>
+            <y>1.0149133205</y>
+          </vector>
+        </entry>
+      </dynamic_list>
+    </param>
+  </layer>
+  <layer type="blur" active="true" exclude_from_rendering="false" version="0.3">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="1" static="true"/>
+    </param>
+    <param name="size">
+      <vector>
+        <x>0.3333333433</x>
+        <y>0.3333333433</y>
+      </vector>
+    </param>
+    <param name="type">
+      <integer value="4" static="true"/>
+    </param>
+  </layer>
+  <layer type="star" active="true" exclude_from_rendering="false" version="0.1">
+    <param name="z_depth">
+      <real value="0.0000000000"/>
+    </param>
+    <param name="amount">
+      <real value="1.0000000000"/>
+    </param>
+    <param name="blend_method">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="color">
+      <color>
+        <r>1.000000</r>
+        <g>1.000000</g>
+        <b>1.000000</b>
+        <a>1.000000</a>
+      </color>
+    </param>
+    <param name="origin">
+      <vector>
+        <x>1.3507671356</x>
+        <y>-0.2066161782</y>
+      </vector>
+    </param>
+    <param name="invert">
+      <bool value="false"/>
+    </param>
+    <param name="antialias">
+      <bool value="true"/>
+    </param>
+    <param name="feather">
+      <real value="0.2000000000"/>
+    </param>
+    <param name="blurtype">
+      <integer value="4" static="true"/>
+    </param>
+    <param name="winding_style">
+      <integer value="0" static="true"/>
+    </param>
+    <param name="radius1">
+      <real value="1.6591660014"/>
+    </param>
+    <param name="radius2">
+      <real value="0.2460943287"/>
+    </param>
+    <param name="angle">
+      <angle value="71.905235"/>
+    </param>
+    <param name="points">
+      <integer value="5"/>
+    </param>
+    <param name="regular_polygon">
+      <bool value="false"/>
+    </param>
+  </layer>
+</canvas>
