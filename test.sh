@@ -24,7 +24,7 @@ function RenderOneFile () {
     echo "==================================="
     echo "Testing $FILE"
     echo "Rendering using $A"
-    RES_A=$($A $FILE -o temp1.png -b --time=0 --width=$W --height=$H 2>/dev/null | grep Rendered | grep -P -o "(\w+.\w+) ms")
+    RES_A=$($A $FILE --renderer="gl" -o temp1.png -b --time=0 --width=$W --height=$H 2>/dev/null | grep Rendered | grep -P -o "(\w+.\w+) ms")
 
     IFS=\; read -a TA <<<"$RES_A"
     echo "Time taken by A: $TA"

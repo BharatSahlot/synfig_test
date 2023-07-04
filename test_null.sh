@@ -1,7 +1,14 @@
 #!/bin/bash
 
+sscanf() {
+  local str="$1"
+  local format="$2"
+  [[ "$str" =~ $format ]]
+}
+
 A=$1
 B=$2
+REPEATS=5
 
 if [ "$#" -lt "4" ]; then
     W="1920"
@@ -24,16 +31,22 @@ function RenderOneFile () {
     echo "==================================="
     echo "Testing $FILE"
     echo "Rendering using A"
-    RES_A=$($A $FILE --target null -b --time=0 --width=$W --height=$H 2>/dev/null | grep Rendered | grep -P -o "(\w+.\w+) ms")
+    RES_A=$($A $FILE --target null -b --repeats=$REPEATS --time=0 --width=$W --height=$H 2>/dev/null | grep Rendered)
 
-    IFS=\; read -a TA <<<"$RES_A"
+    sscanf "$RES_A" "$FILE: Rendered $REPEATS times in (.*) ms. Average time per render: (.*) ms."
+    TA=${BASH_REMATCH[2]}
     echo "Time taken by A: $TA"
 
     echo "Rendering using B"
-    RES_B=$($B $FILE --target null -b --time=0 --width=$W --height=$H 2>/dev/null | grep Rendered | grep -P -o "(\w+.\w+) ms")
+    RES_B=$($B $FILE --target null -b --repeats=$REPEATS --time=0 --width=$W --height=$H 2>/dev/null | grep Rendered)
+    sscanf "$RES_B" "$FILE: Rendered $REPEATS times in (.*) ms. Average time per render: (.*) ms."
+    TB=${BASH_REMATCH[2]}
 
-    IFS=\; read -a TB <<<"$RES_B"
     echo "Time taken by B: $TB"
+
+    IM=$(echo "scale=3; (($TB - $TA) * 100.0) / $TA" | bc -q)
+
+    echo "Speed increase: $IM"
 
     # res=$(compare -metric AE temp1.png temp2.png /dev/null 2>&1);
     # if [ "${res}" != '0' ]; then
