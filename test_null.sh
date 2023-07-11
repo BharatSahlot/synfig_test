@@ -8,7 +8,7 @@ sscanf() {
 
 A=$1
 B=$2
-REPEATS=5
+REPEATS=1
 
 if [ "$#" -lt "4" ]; then
     W="1920"
@@ -31,14 +31,14 @@ function RenderOneFile () {
     echo "==================================="
     echo "Testing $FILE"
     echo "Rendering using A"
-    RES_A=$($A $FILE --target null -b --repeats=$REPEATS --time=0 --width=$W --height=$H 2>/dev/null | grep Rendered)
+    RES_A=$($A $FILE --renderer="gl" --target=null -b --repeats=$REPEATS --time=0 --width=$W --height=$H 2>/dev/null | grep Rendered)
 
     sscanf "$RES_A" "$FILE: Rendered $REPEATS times in (.*) ms. Average time per render: (.*) ms."
     TA=${BASH_REMATCH[2]}
     echo "Time taken by A: $TA"
 
     echo "Rendering using B"
-    RES_B=$($B $FILE --target null -b --repeats=$REPEATS --time=0 --width=$W --height=$H 2>/dev/null | grep Rendered)
+    RES_B=$($B $FILE --target=null -b --repeats=$REPEATS --time=0 --width=$W --height=$H 2>/dev/null | grep Rendered)
     sscanf "$RES_B" "$FILE: Rendered $REPEATS times in (.*) ms. Average time per render: (.*) ms."
     TB=${BASH_REMATCH[2]}
 
